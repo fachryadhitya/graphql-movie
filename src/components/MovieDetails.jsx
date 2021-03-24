@@ -7,7 +7,6 @@ import Layout from "./Layout";
 
 export default function MovieDetails() {
   const params = useParams();
-  console.log(params);
 
   const [getMovie, result] = useLazyQuery(FIND_MOVIE);
 

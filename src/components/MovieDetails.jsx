@@ -27,11 +27,11 @@ export default function MovieDetails() {
         <h1>Loading..</h1>
       ) : (
         <div className="md:max-w-screen-md lg:max-w-screen-lg mx-auto">
-          <h1 className="font-serif font-bold text-2xl hover:underline">
+          <h1 className="font-serif font-bold text-2xl hover:underline ">
             Here is your movie details
           </h1>
           <div className="border-2 rounded-lg border-green-primary border-b-8 p-2 border-l-8 mt-6">
-            <h2 className="font-sans font-semibold text-xl">
+            <h2 className="font-sans font-semibold text-xl ">
               Movie Title: {result?.data?.movie.name}
             </h2>
             <h2 className="font-sans text-xl">

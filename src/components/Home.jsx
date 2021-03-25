@@ -49,7 +49,7 @@ function Home() {
                 />
                 <div className="text-left p-4">
                   <Link to={`/movie-details/${i.id}`}>
-                    <h1 className="font-sans font-semibold cursor-pointer">
+                    <h1 className="font-sans font-semibold cursor-pointer underline">
                       Title: {i.name}
                     </h1>
                   </Link>
